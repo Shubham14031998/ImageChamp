@@ -5,6 +5,7 @@ class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
+        let img = UIImageView()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -26,3 +27,5 @@ class Tests: XCTestCase {
     }
     
 }
+//pod trunk register name@example.org 'Your Name' --description='macbook pro'
+//pod trunk push CactusKeyboard.podspec

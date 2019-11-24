@@ -6,7 +6,7 @@ import UIKit
 let iimageCache = NSCache<NSString, AnyObject>()
 
 //MARK:Extension for Downlode Image Using URl Sessions
-extension UIImageView {
+public extension UIImageView {
     
     //MARK:Func for downlode image
     func downlodeImage(serviceurl:String , placeHolder: UIImage?) {
