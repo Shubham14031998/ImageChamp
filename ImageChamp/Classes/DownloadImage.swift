@@ -17,7 +17,7 @@
 import Foundation
 import UIKit
 
-let iimageCache = NSCache<NSString, AnyObject>()
+let saveImage = NSCache<NSString, AnyObject>()
 
 //MARK:Extension for Downlode Image Using URl Sessions
 public extension UIImageView {
@@ -26,7 +26,7 @@ public extension UIImageView {
         self.image = placeHolder
         guard let url = URL(string: serviceurl.replacingOccurrences(of:  " ", with: "%20")) else { return }
         //MARK:Check image Store in Cache or not
-        if let cachedImage = iimageCache.object(forKey: serviceurl.replacingOccurrences(of: " ", with: "%20") as NSString) {
+        if let cachedImage = saveImage.object(forKey: serviceurl.replacingOccurrences(of: " ", with: "%20") as NSString) {
             if  let image = cachedImage as? UIImage {
                 self.image = image
                 print("Find image on Cache : For Key" , serviceurl.replacingOccurrences(of: " ", with: "%20"))
@@ -46,7 +46,7 @@ public extension UIImageView {
                 guard let imageData = data else {return}
                 if let image = UIImage(data: imageData) {
                     self.image = image
-                    iimageCache.setObject(image, forKey: serviceurl.replacingOccurrences(of: " ", with: "%20") as NSString)
+                    saveImage.setObject(image, forKey: serviceurl.replacingOccurrences(of: " ", with: "%20") as NSString)
                 }
             }
         }).resume()
