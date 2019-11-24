@@ -14,11 +14,9 @@
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D3BBCA59045F0203323C5BA06CA397A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B645E02C0ACEE3D213C1A7004F9BA /* ReplaceMe.swift */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		6E302306238A6ECA00B8E5AC /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E302305238A6ECA00B8E5AC /* DownloadImage.swift */; };
-		6E302308238A709200B8E5AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E302307238A709200B8E5AC /* Constants.swift */; };
 		8218AA32A64BBC39D6CA289E037A1EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
@@ -76,7 +74,6 @@
 		36385DC8A4C13D7B92C00F0A73065941 /* ImageChamp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageChamp.xcconfig; sourceTree = "<group>"; };
 		3A545E9DFA0676A6E7F398917ABC225A /* Pods-ImageChamp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageChamp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3D5B645E02C0ACEE3D213C1A7004F9BA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ImageChamp/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		43169966968021E4C1385A71A850488D /* Pods_ImageChamp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageChamp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +85,6 @@
 		64A5D442C804C4ADF34DC34DF53173D4 /* Pods-ImageChamp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageChamp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6666481598F698616225984CD090EF83 /* Pods-ImageChamp_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageChamp_Example-Info.plist"; sourceTree = "<group>"; };
 		6E302305238A6ECA00B8E5AC /* DownloadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadImage.swift; path = ImageChamp/Classes/DownloadImage.swift; sourceTree = "<group>"; };
-		6E302307238A709200B8E5AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		73619055C2B9284536BB3D33349BED34 /* Pods-ImageChamp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageChamp_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -200,8 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				6E302305238A6ECA00B8E5AC /* DownloadImage.swift */,
-				3D5B645E02C0ACEE3D213C1A7004F9BA /* ReplaceMe.swift */,
-				6E302307238A709200B8E5AC /* Constants.swift */,
 				C53B0C1D79ECC83522A7753E37916C05 /* Pod */,
 				51A0077B645F7FD8E6DC0F5DBF86528D /* Support Files */,
 			);
@@ -546,7 +540,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				6E302308238A709200B8E5AC /* Constants.swift in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
 				6E302306238A6ECA00B8E5AC /* DownloadImage.swift in Sources */,
@@ -580,7 +573,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2EF3802D705ACBAAAECE6386E5C2B5 /* ImageChamp-dummy.m in Sources */,
-				5D3BBCA59045F0203323C5BA06CA397A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

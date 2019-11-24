@@ -16,6 +16,7 @@
 import Foundation
 import UIKit
 
+let iimageCache = NSCache<NSString, AnyObject>()
 
 //MARK:Extension for Downlode Image Using URl Sessions
 public extension UIImageView {
