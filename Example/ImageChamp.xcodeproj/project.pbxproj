@@ -38,14 +38,14 @@
 		607FACE51AFB9204008FA782 /* ImageChamp_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageChamp_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		796220350D24098EDCC46972 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		817072DB094280598F4BE3A1 /* ImageChamp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageChamp.podspec; path = ../ImageChamp.podspec; sourceTree = "<group>"; };
+		796220350D24098EDCC46972 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		817072DB094280598F4BE3A1 /* ImageChamp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImageChamp.podspec; path = ../ImageChamp.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		89430025846ECCD36FFA9F23 /* Pods-ImageChamp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageChamp_Example.release.xcconfig"; path = "Target Support Files/Pods-ImageChamp_Example/Pods-ImageChamp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		984AA71F9F9138F503150DEB /* Pods-ImageChamp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageChamp_Tests.release.xcconfig"; path = "Target Support Files/Pods-ImageChamp_Tests/Pods-ImageChamp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5241D7D3CBCA4ABFECB087B /* Pods_ImageChamp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageChamp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84A35855B169725FC0C9A37 /* Pods-ImageChamp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageChamp_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImageChamp_Example/Pods-ImageChamp_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C3CCDA3B8B9DE16FF05838EB /* Pods_ImageChamp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageChamp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF262334F7F8307F1CAFA885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CF262334F7F8307F1CAFA885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D4678BE50F95B5969F64C011 /* Pods-ImageChamp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageChamp_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ImageChamp_Tests/Pods-ImageChamp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				D4678BE50F95B5969F64C011 /* Pods-ImageChamp_Tests.debug.xcconfig */,
 				984AA71F9F9138F503150DEB /* Pods-ImageChamp_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
