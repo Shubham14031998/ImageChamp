@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageChamp'
   s.version          = '0.1.0'
-  s.summary          = 'ImageChamp is used to download'
+  s.summary          = 'ImageChamp is used to download image from server'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
