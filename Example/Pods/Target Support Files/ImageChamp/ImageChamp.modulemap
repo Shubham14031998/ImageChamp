@@ -1,0 +1,6 @@
+framework module ImageChamp {
+  umbrella header "ImageChamp-umbrella.h"
+
+  export *
+  module * { export * }
+}

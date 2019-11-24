@@ -1,0 +1,22 @@
+{
+  "name": "ImageChamp",
+  "version": "0.1.0",
+  "summary": "A short description of ImageChamp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shubhamkaliyar255@gmail.com/ImageChamp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shubhamkaliyar255@gmail.com": "shubhamkaliyar255@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shubhamkaliyar255@gmail.com/ImageChamp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageChamp/Classes/**/*"
+}
