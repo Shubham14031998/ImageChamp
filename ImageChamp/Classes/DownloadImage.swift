@@ -6,8 +6,9 @@
 // This is a pod file to download image From Server
 
 /*
- user
+ uses
  let sampleimage = UIImageView()
+ 
  
  sampleImage.downlodeImage(serviceurl : "" , placeHolder : UIImage())
  
